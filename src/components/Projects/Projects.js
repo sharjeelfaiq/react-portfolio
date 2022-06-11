@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import TBO from "../../Assets/Projects/TBO.PNG";
+import p1 from "../../Assets/Projects/p1.PNG";
+import p2 from "../../Assets/Projects/p2.PNG";
 
 function Projects() {
   return (
@@ -20,31 +20,31 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={TBO}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Textbotonline"
+              description="Textbotonline is a FREE ONLINE TEXT UTILITY WEB APPLICATION OR A WEBSITE that allows you to edit your text online or generate different kinds of text online. Moreover, it tells you the statistics or summary of your text."
+              link="https://textbotonline.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={p1}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Personal Portfolio #01"
+              description="Hey! This is Sharjeel. I'm a professional front-end web developer and React JS developer, currently working in Pakistan. I love to code, create efficient apps and interactive websites, resolve complex problems, and many more."
+              link="https://sharjeelfaiq.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={p2}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Personal  Portfolio #02"
+              description="Hey! This is Sharjeel. I'm a professional front-end web developer and React JS developer, currently working in Pakistan. I love to code, create efficient apps and interactive websites, resolve complex problems, and many more."
+              link="https://sharjeel.netlify.app/"
             />
           </Col>
         </Row>
