@@ -44,7 +44,7 @@ function Projects() {
               isBlog={false}
               title="Personal  Portfolio #02"
               description="Hey! This is Sharjeel. I'm a professional front-end web developer and React JS developer, currently working in Pakistan. I love to code, create efficient apps and interactive websites, resolve complex problems, and many more."
-              link="https://sharjeel.netlify.app/"
+              link="https://sharjeelfaiq610.netlify.app/"
             />
           </Col>
         </Row>
