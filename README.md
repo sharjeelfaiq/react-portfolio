@@ -30,6 +30,12 @@
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
+## Clone this repository by using the following link
+
+https://github.com/mrmalik610/react-portfolio.git
+
+## OR
+
 ## 🛠 Installation and Setup Instructions
 
 1. Installation: `npm install`
