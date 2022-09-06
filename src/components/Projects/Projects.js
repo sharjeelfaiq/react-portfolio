@@ -31,7 +31,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TBO}
+              imgPath={SWAPI}
               isBlog={false}
               title="SWAPI Demo Site"
               description="SWAPI Demo Site is a website created using Bootstrap, React JS and Starwars API. This website is created in light to illustrate the basic usage of SWAPI. The API is free to use for anyone.."
