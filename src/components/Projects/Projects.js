@@ -37,6 +37,7 @@ function Projects() {
               description="SWAPI Demo Site is a website created using Bootstrap, React JS and Starwars API. This website is created in light to illustrate the basic usage of SWAPI. The API is free to use for anyone.."
               responsiveness="Mobile Responsive? Yes!"
               link="https://swapi-demo-site.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/Starwars-api-usage-with-react-and-bootstrap.git"
             />
           </Col>
 
@@ -70,6 +71,7 @@ function Projects() {
               description="This web page illustrates how we can pass data from child to parent components as props. The web page is created using Material UI and React JS."
               responsiveness="Mobile Responsive? Yes!"
               link="https://pass-props-from-child-to-parent.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/passsing-props-from-child-to-parents"
             />
           </Col>
 
@@ -81,6 +83,7 @@ function Projects() {
               description="Hey! I'm Sharjeel. I'm a professional front-end web developer and React JS developer currently working in Pakistan. I love to code, create efficient apps and interactive websites, resolve complex problems, and many more."
               responsiveness="Mobile Responsive? Yes!"
               link="https://sharjeelfaiq.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/react-portfolio.git"
             />
           </Col>
 
@@ -114,6 +117,7 @@ function Projects() {
               description="This mini game is entirely made up of simple and smartly written HTML, CSS, and JavaScript. The idea is taken from the offline game Dino."
               responsiveness="Mobile Responsive? No!"
               link="https://jump-nobita-jump.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/jump-nobita-jump"
             />
           </Col>
 
@@ -125,6 +129,7 @@ function Projects() {
               description="This website is made in motivation of the childern who needs a proper education system in Himalayas. The website is entirely made up of simple and pure written HTML, CSS, and JavaScript with noticeable animations."
               responsiveness="Mobile Responsive? No!"
               link="https://schoolhimalayas.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/custom-school-website-template"
             />
           </Col>
 
@@ -136,6 +141,7 @@ function Projects() {
               description="This calculator is made in motivation of creating my first web app purely with HTML, CSS, and JavaScript. The design is taken from a Youtube video but the code is completely custom."
               responsiveness="Mobile Responsive? Yes!"
               link="https://calculator6101.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/custom-calculator-using-html-css-javascript"
             />
           </Col>
 
@@ -147,6 +153,7 @@ function Projects() {
               description="This calculator is made in motivation of creating my second web calculator purely with HTML, CSS, and JavaScript. The design is taken from an image seen on Google and is completely self coded."
               responsiveness="Mobile Responsive? Yes!"
               link="https://calculator6102.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/custom-calculator-with-HTML-CSS-JS"
             />
           </Col>
 
@@ -180,6 +187,7 @@ function Projects() {
               description="This landing page is a conversion of a Figma design into a web page purely written of HTML and CSS.."
               responsiveness="Mobile Responsive? No!"
               link="https://oneposotion.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/custom-landing-page-Oneposotion"
             />
           </Col>
         </Row>
