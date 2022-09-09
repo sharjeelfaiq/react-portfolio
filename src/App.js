@@ -41,7 +41,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer className="footer" />
+        <Footer />
       </div>
     </Router>
   );
