@@ -16,6 +16,7 @@ import emailtemplate01 from "../../Assets/Projects/emailtemplate01.PNG";
 import emailtemplate02 from "../../Assets/Projects/emailtemplate02.PNG";
 import landingpage01 from "../../Assets/Projects/landingpage01.PNG";
 import SWAPI from "../../Assets/Projects/swapi.PNG";
+import memomate from "../../Assets/Projects/memomate.PNG";
 
 function Projects() {
   return (
@@ -84,6 +85,18 @@ function Projects() {
               responsiveness="Mobile Responsive? Yes!"
               link="https://sharjeelfaiq.netlify.app/"
               repo="https://github.com/sharjeelfaiq/react-portfolio.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={memomate}
+              isBlog={false}
+              title="MemoMate"
+              description="Notes taking app made using Bootstrap 5.2 and pure JavaScript."
+              responsiveness="Mobile Responsive? Yes!"
+              link="https://memomate.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/MemoMate-Notes-taking-Web-App-"
             />
           </Col>
 
