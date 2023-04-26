@@ -17,6 +17,7 @@ import emailtemplate02 from "../../Assets/Projects/emailtemplate02.PNG";
 import landingpage01 from "../../Assets/Projects/landingpage01.PNG";
 import SWAPI from "../../Assets/Projects/swapi.PNG";
 import memomate from "../../Assets/Projects/memomate.PNG";
+import taskmate from "../../Assets/Projects/taskmate.PNG"
 
 function Projects() {
   return (
@@ -32,6 +33,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={SWAPI}
               isBlog={false}
               title="SWAPI Demo Site"
@@ -44,6 +46,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={TBO}
               isBlog={false}
               title="Textbotonline"
@@ -55,6 +58,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={p1}
               isBlog={false}
               title="Personal Portfolio #01"
@@ -66,6 +70,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={lineups}
               isBlog={false}
               title="Child To Parent Props (React)"
@@ -78,6 +83,20 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
+              imgPath={taskmate}
+              isBlog={false}
+              title="TaskMate (MUI + React)"
+              description="This web app is made using React JS and Material UI React."
+              responsiveness="Mobile Responsive? Yes!"
+              link="https://taskmate610.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/TaskMate"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              videoPath={"abc"}
               imgPath={p2}
               isBlog={false}
               title="Personal  Portfolio #02"
@@ -90,6 +109,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={memomate}
               isBlog={false}
               title="MemoMate"
@@ -102,6 +122,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={calendar}
               isBlog={false}
               title="Calendar"
@@ -113,6 +134,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={car}
               isBlog={false}
               title="Animated Car"
@@ -124,6 +146,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={nobita}
               isBlog={false}
               title="Go Nobita Go (Mini Game)"
@@ -136,6 +159,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={himalayas}
               isBlog={false}
               title="School Himalayas"
@@ -148,6 +172,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={calculator01}
               isBlog={false}
               title="Calculator #01"
@@ -160,6 +185,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={calculator02}
               isBlog={false}
               title="Calculator #02"
@@ -172,6 +198,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={emailtemplate01}
               isBlog={false}
               title="Email Template #01"
@@ -183,6 +210,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={emailtemplate02}
               isBlog={false}
               title="Email Template #02"
@@ -194,6 +222,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              videoPath={"abc"}
               imgPath={landingpage01}
               isBlog={false}
               title="Landing Page #01"
