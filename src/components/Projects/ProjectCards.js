@@ -7,7 +7,7 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
-      <video controls style={{ marginTop: "5px" }}>
+      <video controls style={{ marginTop: "5px" }} poster={props.thumbnail} width="300" height="200">
         <source src={props.videoPath} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
