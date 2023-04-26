@@ -2,22 +2,22 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import TBO from "../../Assets/Projects/TBO.PNG";
-import p1 from "../../Assets/Projects/p1.PNG";
-import p2 from "../../Assets/Projects/p2.PNG";
-import lineups from "../../Assets/Projects/lineups.PNG";
-import calendar from "../../Assets/Projects/mycalendar.PNG";
-import car from "../../Assets/Projects/animatedcar.PNG";
-import nobita from "../../Assets/Projects/gonobitago.PNG";
-import himalayas from "../../Assets/Projects/schoolhimalayas.PNG";
-import calculator01 from "../../Assets/Projects/cal 1.PNG";
-import calculator02 from "../../Assets/Projects/cal 2.PNG";
-import emailtemplate01 from "../../Assets/Projects/emailtemplate01.PNG";
-import emailtemplate02 from "../../Assets/Projects/emailtemplate02.PNG";
-import landingpage01 from "../../Assets/Projects/landingpage01.PNG";
-import SWAPI from "../../Assets/Projects/swapi.PNG";
-import memomate from "../../Assets/Projects/memomate.PNG";
-import taskmate from "../../Assets/Projects/taskmate.PNG"
+import TBO from "../../Assets/ProjectsImgs/TBO.PNG";
+import p1 from "../../Assets/ProjectsImgs/p1.PNG";
+import p2 from "../../Assets/ProjectsImgs/p2.PNG";
+import lineups from "../../Assets/ProjectsImgs/lineups.PNG";
+import calendar from "../../Assets/ProjectsImgs/mycalendar.PNG";
+import car from "../../Assets/ProjectsImgs/animatedcar.PNG";
+import nobita from "../../Assets/ProjectsImgs/gonobitago.PNG";
+import himalayas from "../../Assets/ProjectsImgs/schoolhimalayas.PNG";
+import calculator01 from "../../Assets/ProjectsImgs/cal 1.PNG";
+import calculator02 from "../../Assets/ProjectsImgs/cal 2.PNG";
+import emailtemplate01 from "../../Assets/ProjectsImgs/emailtemplate01.PNG";
+import emailtemplate02 from "../../Assets/ProjectsImgs/emailtemplate02.PNG";
+import landingpage01 from "../../Assets/ProjectsImgs/landingpage01.PNG";
+import SWAPI from "../../Assets/ProjectsImgs/swapi.PNG";
+import memomate from "../../Assets/ProjectsImgs/memomate.PNG";
+import taskmate from "../../Assets/ProjectsImgs/taskmate.PNG"
 
 function Projects() {
   return (
