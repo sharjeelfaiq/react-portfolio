@@ -19,37 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with web development and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in
-              <i>
-                <b className="purple"> HTML, CSS, Javascript, Bootstrap, ES6, Git and Github.</b>
-              </i>
+              💻 I bring my expertise in HTML, CSS, Bootstrap, MUI React,
+              JavaScript, React JS, and Node JS to the table to create visually
+              stunning and high-performing websites for businesses and
+              organizations.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Websites, webapps and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              🎯 My goal is to work with clients to deliver custom website
+              development, e-commerce platforms, and site redesigns that meet
+              their specific needs and exceed their expectations.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              🔨 I am dedicated, reliable, and results-driven, and I am always
+              looking for new opportunities to put my skills and experience to
+              work.
+              <br />
+              <br />
+              So if you're in need of a talented and professional web developer,
+              feel free to reach out! I'd be more than happy to bring my skills
+              to your team
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -77,7 +65,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/SharjeelFaiqrjeel"
+                  href="https://twitter.com/SharjeelFaiq"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

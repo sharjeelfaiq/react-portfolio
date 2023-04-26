@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+// import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,29 +8,22 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sharjeel Faiq </span>
-            from <span className="purple"> Quetta, Pakistan.</span>
-            <br />I am an undergraduate in Mathematics and have choosen Web Development as my professional career.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            I'm Sharjeel Faiq. An Experienced Mern-Stack developer with 3+ years
+            of experience in coding. Skilled in front-end frameworks
+            <span className="purple">(Bootstrap, Material UI)</span>, hosting
+            services, version control{" "}
+            <span className="purple">(Git, Github)</span>, and project
+            management <span className="purple">(Jira)</span>. Managed clients
+            on Fiverr and locally, delivering high-quality results. Proficient
+            in pure JavaScript and its frameworks including React JS, Node JS,
+            Express JS, and Next JS.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Teaching Mathematics
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Learning To Solve Complex Problems
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
+          {/* <ImPointRight />  */}
           <p style={{ color: "rgb(155 126 172)" }}>
-            "I can't change the direction of the wind, but I can adjust my sails to always reach my destination!"{" "}
+            "I can't change the direction of the wind, but I can adjust my sails
+            to always reach my destination!"{" "}
           </p>
-          <footer className="blockquote-footer">Sharjeel</footer>
+          <footer className="blockquote-footer">Jimmy Dean</footer>
         </blockquote>
       </Card.Body>
     </Card>
