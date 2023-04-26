@@ -39,8 +39,14 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "center", fontWeight: "bolder" }}>
           {props.responsiveness}
         </Card.Text>
+        <hr />
         <div className="d-flex align-items-center flex-column">
-          <Button variant="primary" href={props.link} target="_blank">
+          <Button
+            variant="primary"
+            style={{ width: "8rem" }}
+            href={props.link}
+            target="_blank"
+          >
             <BiLinkExternal /> &nbsp;
             {props.isBlog ? "View Blog" : "Demo"}
           </Button>
@@ -49,9 +55,10 @@ function ProjectCards(props) {
             className="mt-1"
             href={props.repo}
             target="_blank"
+            style={{ width: "8rem" }}
           >
             <BiLinkExternal /> &nbsp;
-            {props.repo ? "Github" : "No Repo"}
+            {props.repo ? "Repo" : "No Repo"}
           </Button>
         </div>
       </Card.Body>
