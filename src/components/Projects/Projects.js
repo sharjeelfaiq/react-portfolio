@@ -69,7 +69,7 @@ function Projects() {
               thumbnail={SWAPIPicture}
               isBlog={false}
               title="SWAPI Demo Site"
-              description="SWAPI Demo Site is a website created using Bootstrap, React JS and Starwars API. This website is created in light to illustrate the basic usage of SWAPI. The API is free to use for anyone.."
+              description="SWAPI Demo Site is a Bootstrap and React JS website that showcases basic usage of the free Starwars API."
               responsiveness="Mobile Responsive? Yes!"
               link="https://swapi-demo-site.netlify.app/"
               repo="https://github.com/sharjeelfaiq/Starwars-api-usage-with-react-and-bootstrap.git"
@@ -82,7 +82,7 @@ function Projects() {
               thumbnail={TBOPicture}
               isBlog={false}
               title="Textbotonline"
-              description="Textbotonline is an online text editor React App. It allows you to edit or generate different kinds of text online. Alongwith, giving you the statistics of your text."
+              description="Textbotonline is a web-based React app that enables online text editing and generation, along with providing text statistics."
               responsiveness="Mobile Responsive? Yes!"
               link="https://textbotonline.netlify.app/"
             />
@@ -94,7 +94,7 @@ function Projects() {
               thumbnail={p1Picture}
               isBlog={false}
               title="Personal Portfolio #01"
-              description="Hey! I'm Sharjeel. I'm a professional front-end web developer and React JS developer currently working in Pakistan. I love to code, create efficient apps and interactive websites, resolve complex problems, and many more."
+              description="Hi, I'm Sharjeel, a front-end web and React JS developer based in Pakistan. I enjoy coding, building efficient apps and websites, and solving complex problems."
               responsiveness="Mobile Responsive? Yes!"
               link="https://sharjeelfaiq610.netlify.app/"
             />
@@ -132,7 +132,7 @@ function Projects() {
               thumbnail={p2Picture}
               isBlog={false}
               title="Personal  Portfolio #02"
-              description="Hey! I'm Sharjeel. I'm a professional front-end web developer and React JS developer currently working in Pakistan. I love to code, create efficient apps and interactive websites, resolve complex problems, and many more."
+              description="I'm Sharjeel, a professional front-end and React JS web developer based in Pakistan. I enjoy coding, creating efficient apps and websites, and solving complex problems."
               responsiveness="Mobile Responsive? Yes!"
               link="https://sharjeelfaiq.netlify.app/"
               repo="https://github.com/sharjeelfaiq/react-portfolio.git"
@@ -183,7 +183,7 @@ function Projects() {
               thumbnail={himalayasPicture}
               isBlog={false}
               title="School Himalayas"
-              description="This website is made in motivation of the childern who needs a proper education system in Himalayas. The website is entirely made up of simple and pure written HTML, CSS, and JavaScript with noticeable animations."
+              description="This website motivates children who need education in the Himalayas. It uses pure HTML, CSS, and JavaScript with noticeable animations."
               responsiveness="Mobile Responsive? No!"
               link="https://schoolhimalayas.netlify.app/"
               repo="https://github.com/sharjeelfaiq/custom-school-website-template"
@@ -196,7 +196,7 @@ function Projects() {
               thumbnail={calculator01Picture}
               isBlog={false}
               title="Calculator #01"
-              description="This calculator is made in motivation of creating my first web app purely with HTML, CSS, and JavaScript. The design is taken from a Youtube video but the code is completely custom."
+              description="I created this calculator using HTML, CSS, and JavaScript, drawing inspiration from a YouTube video for the design but coding it completely from scratch."
               responsiveness="Mobile Responsive? Yes!"
               link="https://calculator6101.netlify.app/"
               repo="https://github.com/sharjeelfaiq/custom-calculator-using-html-css-javascript"
@@ -209,7 +209,7 @@ function Projects() {
               thumbnail={calculator02Picture}
               isBlog={false}
               title="Calculator #02"
-              description="This calculator is made in motivation of creating my second web calculator purely with HTML, CSS, and JavaScript. The design is taken from an image seen on Google and is completely self coded."
+              description="I created this calculator using HTML, CSS, and JavaScript, inspired by a design found on Google."
               responsiveness="Mobile Responsive? Yes!"
               link="https://calculator6102.netlify.app/"
               repo="https://github.com/sharjeelfaiq/custom-calculator-with-HTML-CSS-JS"
@@ -222,7 +222,7 @@ function Projects() {
               thumbnail={et1Picture}
               isBlog={false}
               title="Email Template #01"
-              description="This Email Template is made in motivation of learning how to create email templates purely with HTML and CSS. The design is taken from a Youtube video and is completely self coded."
+              description="This HTML/CSS email template was self-coded, inspired by a Youtube video."
               responsiveness="Mobile Responsive? No!"
               link="https://emailtemplate6101.netlify.app/"
             />
@@ -234,7 +234,7 @@ function Projects() {
               thumbnail={et2Picture}
               isBlog={false}
               title="Email Template #02"
-              description="This Email Template is made in motivation of learning how to create email templates purely with HTML and CSS. The design is taken from a Youtube video and is completely self coded."
+              description="This HTML/CSS email template was self-coded, inspired by a Youtube video."
               responsiveness="Mobile Responsive? No!"
               link="https://emailtemplate6102.netlify.app/"
             />
@@ -246,7 +246,7 @@ function Projects() {
               thumbnail={landingpage01Picture}
               isBlog={false}
               title="Landing Page #01"
-              description="This landing page is a conversion of a Figma design into a web page purely written of HTML and CSS.."
+              description="This landing page is a conversion of a Figma design into a web page purely written of HTML and CSS."
               responsiveness="Mobile Responsive? No!"
               link="https://oneposotion.netlify.app/"
               repo="https://github.com/sharjeelfaiq/custom-landing-page-Oneposotion"
