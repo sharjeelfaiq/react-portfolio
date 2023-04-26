@@ -40,10 +40,10 @@ function ProjectCards(props) {
           {props.responsiveness}
         </Card.Text>
         <hr />
-        <div className="d-flex align-items-center flex-row justify-content-around">
+        <div className="d-flex align-items-center flex-column mt-3">
           <Button
             variant="primary"
-            style={{ width: "8rem" }}
+            style={{ width: "7.5rem" }}
             href={props.link}
             target="_blank"
           >
@@ -55,7 +55,7 @@ function ProjectCards(props) {
             className="mt-1"
             href={props.repo}
             target="_blank"
-            style={{ width: "8rem" }}
+            style={{ width: "7.5rem" }}
           >
             <BiLinkExternal /> &nbsp;
             {props.repo ? "Repo" : "No Repo"}
