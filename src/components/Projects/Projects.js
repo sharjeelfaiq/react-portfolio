@@ -36,7 +36,7 @@ import landingpage01Picture from "../../Assets/ProjectsImgs/landingpage01.PNG";
 import SWAPIPicture from "../../Assets/ProjectsImgs/swapi.PNG";
 import memomatePicture from "../../Assets/ProjectsImgs/memomate.PNG";
 import taskmatePicture from "../../Assets/ProjectsImgs/taskmate.PNG";
-import QPTPicture from "../../Assets/ProjectsImgs/QPT.PNG";
+import QPTPicture from "../../Assets/ProjectsImgs/QPT.jpg";
 
 function Projects() {
   return (
