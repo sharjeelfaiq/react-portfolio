@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
+// VIDEO IMPORT STATEMENTS
 import TBOVideo from "../../Assets/ProjectsVideos/TBO.mp4";
 import p1Video from "../../Assets/ProjectsVideos/p1.mp4";
 import p2Video from "../../Assets/ProjectsVideos/p2.mp4";
@@ -17,6 +19,8 @@ import landingpage01Video from "../../Assets/ProjectsVideos/landingpage01.mp4";
 import SWAPIVideo from "../../Assets/ProjectsVideos/SWAPI.mp4";
 import memomateVideo from "../../Assets/ProjectsVideos/memomate.mp4";
 import taskmateVideo from "../../Assets/ProjectsVideos/taskmate.mp4";
+
+// IMAGE IMPORT STATEMENTS
 import TBOPicture from "../../Assets/ProjectsImgs/TBO.PNG";
 import p1Picture from "../../Assets/ProjectsImgs/p1.PNG";
 import p2Picture from "../../Assets/ProjectsImgs/p2.PNG";
@@ -32,6 +36,7 @@ import landingpage01Picture from "../../Assets/ProjectsImgs/landingpage01.PNG";
 import SWAPIPicture from "../../Assets/ProjectsImgs/swapi.PNG";
 import memomatePicture from "../../Assets/ProjectsImgs/memomate.PNG";
 import taskmatePicture from "../../Assets/ProjectsImgs/taskmate.PNG";
+import QPTPicture from "../../Assets/ProjectsImgs/QPT.PNG";
 
 function Projects() {
   return (
@@ -45,6 +50,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              videoPath={SWAPIVideo}
+              thumbnail={QPTPicture}
+              isBlog={false}
+              title="Quetta Prayer Timings"
+              description="Website built with React JS and AlAdhan API for automatic updates of latest data based on International University of Karachi and Hanafi Mazhab."
+              responsiveness="Mobile Responsive? Yes!"
+              link="https://quetta-prayer-timings.netlify.app/"
+              repo="https://github.com/sharjeelfaiq/quetta-prayer-timings"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               videoPath={SWAPIVideo}
