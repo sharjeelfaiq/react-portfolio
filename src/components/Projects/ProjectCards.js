@@ -42,7 +42,7 @@ function ProjectCards(props) {
         <div className="d-flex align-items-center flex-column">
           <Button variant="primary" href={props.link} target="_blank">
             <BiLinkExternal /> &nbsp;
-            {props.isBlog ? "View Blog" : "View Project"}
+            {props.isBlog ? "View Blog" : "Demo"}
           </Button>
           <Button
             variant="primary"
@@ -51,7 +51,7 @@ function ProjectCards(props) {
             target="_blank"
           >
             <BiLinkExternal /> &nbsp;
-            {props.repo ? "View Repository" : "No Repository"}
+            {props.repo ? "Github" : "No Repo"}
           </Button>
         </div>
       </Card.Body>
