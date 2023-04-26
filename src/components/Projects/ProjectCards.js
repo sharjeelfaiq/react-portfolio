@@ -40,7 +40,7 @@ function ProjectCards(props) {
           {props.responsiveness}
         </Card.Text>
         <hr />
-        <div className="d-flex align-items-center flex-column">
+        <div className="d-flex align-items-center flex-row justify-content-around">
           <Button
             variant="primary"
             style={{ width: "8rem" }}
