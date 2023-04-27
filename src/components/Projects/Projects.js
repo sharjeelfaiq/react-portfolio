@@ -4,39 +4,40 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // VIDEO IMPORT STATEMENTS
-import TBOVideo from "../../Assets/ProjectsVideos/TBO.mp4";
-import p1Video from "../../Assets/ProjectsVideos/p1.mp4";
-import p2Video from "../../Assets/ProjectsVideos/p2.mp4";
-import lineupsVideo from "../../Assets/ProjectsVideos/lineups.mp4";
-import calendarVideo from "../../Assets/ProjectsVideos/calendar.mp4";
-import nobitaVideo from "../../Assets/ProjectsVideos/nobita.mp4";
-import himalayasVideo from "../../Assets/ProjectsVideos/himalayas.mp4";
-import calculator01Video from "../../Assets/ProjectsVideos/cal1.mp4";
-import calculator02Video from "../../Assets/ProjectsVideos/cal2.mp4";
-import et1Video from "../../Assets/ProjectsVideos/et1.mp4";
-import et2Video from "../../Assets/ProjectsVideos/et2.mp4";
-import landingpage01Video from "../../Assets/ProjectsVideos/landingpage01.mp4";
-import SWAPIVideo from "../../Assets/ProjectsVideos/SWAPI.mp4";
-import memomateVideo from "../../Assets/ProjectsVideos/memomate.mp4";
-import taskmateVideo from "../../Assets/ProjectsVideos/taskmate.mp4";
+import PV_1 from "../../Assets/ProjectsVideos/PV_1.mp4";
+import PV_2 from "../../Assets/ProjectsVideos/PV_2.mp4";
+import PV_3 from "../../Assets/ProjectsVideos/PV_3.mp4";
+import PV_4 from "../../Assets/ProjectsVideos/PV_4.mp4";
+import PV_5 from "../../Assets/ProjectsVideos/PV_5.mp4";
+import PV_6 from "../../Assets/ProjectsVideos/PV_6.mp4";
+import PV_7 from "../../Assets/ProjectsVideos/PV_7.mp4";
+import PV_8 from "../../Assets/ProjectsVideos/PV_8.mp4";
+import PV_9 from "../../Assets/ProjectsVideos/PV_9.mp4";
+import PV_10 from "../../Assets/ProjectsVideos/PV_10.mp4";
+import PV_11 from "../../Assets/ProjectsVideos/PV_11.mp4";
+import PV_12 from "../../Assets/ProjectsVideos/PV_12.mp4";
+import PV_13 from "../../Assets/ProjectsVideos/PV_13.mp4";
+import PV_14 from "../../Assets/ProjectsVideos/PV_14.mp4";
+import PV_15 from "../../Assets/ProjectsVideos/PV_15.mp4";
+import PV_16 from "../../Assets/ProjectsVideos/PV_16.mp4";
 
 // IMAGE IMPORT STATEMENTS
-import TBOPicture from "../../Assets/ProjectsImgs/TBO.PNG";
-import p1Picture from "../../Assets/ProjectsImgs/p1.PNG";
-import p2Picture from "../../Assets/ProjectsImgs/p2.PNG";
-import lineupsPicture from "../../Assets/ProjectsImgs/lineups.PNG";
-import calendarPicture from "../../Assets/ProjectsImgs/mycalendar.PNG";
-import nobitaPicture from "../../Assets/ProjectsImgs/gonobitago.PNG";
-import himalayasPicture from "../../Assets/ProjectsImgs/schoolhimalayas.PNG";
-import calculator01Picture from "../../Assets/ProjectsImgs/cal 1.PNG";
-import calculator02Picture from "../../Assets/ProjectsImgs/cal 2.PNG";
-import et1Picture from "../../Assets/ProjectsImgs/emailtemplate01.PNG";
-import et2Picture from "../../Assets/ProjectsImgs/emailtemplate02.PNG";
-import landingpage01Picture from "../../Assets/ProjectsImgs/landingpage01.PNG";
-import SWAPIPicture from "../../Assets/ProjectsImgs/swapi.PNG";
-import memomatePicture from "../../Assets/ProjectsImgs/memomate.PNG";
-import taskmatePicture from "../../Assets/ProjectsImgs/taskmate.PNG";
-import QPTPicture from "../../Assets/ProjectsImgs/QPT.jpg";
+import PI_1 from "../../Assets/ProjectsImgs/PI_1.PNG";
+import PI_2 from "../../Assets/ProjectsImgs/PI_2.PNG";
+import PI_3 from "../../Assets/ProjectsImgs/PI_3.PNG";
+import PI_4 from "../../Assets/ProjectsImgs/PI_4.PNG";
+import PI_5 from "../../Assets/ProjectsImgs/PI_5.PNG";
+import PI_6 from "../../Assets/ProjectsImgs/PI_6.PNG";
+import PI_7 from "../../Assets/ProjectsImgs/PI_7.PNG";
+import PI_8 from "../../Assets/ProjectsImgs/PI_8.PNG";
+import PI_9 from "../../Assets/ProjectsImgs/PI_9.PNG";
+import PI_10 from "../../Assets/ProjectsImgs/PI_10.PNG";
+import PI_11 from "../../Assets/ProjectsImgs/PI_11.PNG";
+import PI_12 from "../../Assets/ProjectsImgs/PI_12.PNG";
+import PI_13 from "../../Assets/ProjectsImgs/PI_13.PNG";
+import PI_14 from "../../Assets/ProjectsImgs/PI_14.PNG";
+import PI_15 from "../../Assets/ProjectsImgs/PI_15.PNG";
+import PI_16 from "../../Assets/ProjectsImgs/PI_16.jpg";
 
 function Projects() {
   return (
@@ -52,8 +53,8 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={SWAPIVideo}
-              thumbnail={QPTPicture}
+              videoPath={PV_16}
+              thumbnail={PI_16}
               isBlog={false}
               title="Quetta Prayer Timings"
               description="Website built with React JS and AlAdhan API for automatic updates of latest data based on International University of Karachi and Hanafi Mazhab."
@@ -65,8 +66,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={SWAPIVideo}
-              thumbnail={SWAPIPicture}
+              videoPath={PV_15}
+              thumbnail={PI_15}
               isBlog={false}
               title="SWAPI Demo Site"
               description="SWAPI Demo Site is a Bootstrap and React JS website that showcases basic usage of the free Starwars API."
@@ -78,8 +79,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={TBOVideo}
-              thumbnail={TBOPicture}
+              videoPath={PV_14}
+              thumbnail={PI_14}
               isBlog={false}
               title="Textbotonline"
               description="Textbotonline is a web-based React app that enables online text editing and generation, along with providing text statistics."
@@ -90,8 +91,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={p1Video}
-              thumbnail={p1Picture}
+              videoPath={PV_13}
+              thumbnail={PI_13}
               isBlog={false}
               title="Personal Portfolio #01"
               description="Hi, I'm Sharjeel, a front-end web and React JS developer based in Pakistan. I enjoy coding, building efficient apps and websites, and solving complex problems."
@@ -102,8 +103,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={lineupsVideo}
-              thumbnail={lineupsPicture}
+              videoPath={PV_12}
+              thumbnail={PI_12}
               isBlog={false}
               title="Child To Parent Props (React)"
               description="This web page illustrates how we can pass data from child to parent components as props. The web page is created using Material UI and React JS."
@@ -115,8 +116,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={taskmateVideo}
-              thumbnail={taskmatePicture}
+              videoPath={PV_11}
+              thumbnail={PI_11}
               isBlog={false}
               title="TaskMate (MUI + React)"
               description="This web app is made using React JS and Material UI React."
@@ -128,8 +129,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={p2Video}
-              thumbnail={p2Picture}
+              videoPath={PV_10}
+              thumbnail={PI_10}
               isBlog={false}
               title="Personal  Portfolio #02"
               description="I'm Sharjeel, a professional front-end and React JS web developer based in Pakistan. I enjoy coding, creating efficient apps and websites, and solving complex problems."
@@ -141,8 +142,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={memomateVideo}
-              thumbnail={memomatePicture}
+              videoPath={PV_9}
+              thumbnail={PI_9}
               isBlog={false}
               title="MemoMate"
               description="Notes taking app made using Bootstrap 5.2 and pure JavaScript."
@@ -154,8 +155,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={calendarVideo}
-              thumbnail={calendarPicture}
+              videoPath={PV_8}
+              thumbnail={PI_8}
               isBlog={false}
               title="Calendar"
               description="This calendar is purely made with HTML, CSS, JavaScript and jQuery..."
@@ -166,8 +167,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={nobitaVideo}
-              thumbnail={nobitaPicture}
+              videoPath={PV_7}
+              thumbnail={PI_7}
               isBlog={false}
               title="Go Nobita Go (Mini Game)"
               description="This mini game is entirely made up of simple and smartly written HTML, CSS, and JavaScript. The idea is taken from the offline game Dino."
@@ -179,8 +180,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={himalayasVideo}
-              thumbnail={himalayasPicture}
+              videoPath={PV_6}
+              thumbnail={PI_6}
               isBlog={false}
               title="School Himalayas"
               description="This website motivates children who need education in the Himalayas. It uses pure HTML, CSS, and JavaScript with noticeable animations."
@@ -192,8 +193,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={calculator01Video}
-              thumbnail={calculator01Picture}
+              videoPath={PV_5}
+              thumbnail={PI_5}
               isBlog={false}
               title="Calculator #01"
               description="I created this calculator using HTML, CSS, and JavaScript, drawing inspiration from a YouTube video for the design but coding it completely from scratch."
@@ -205,8 +206,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={calculator02Video}
-              thumbnail={calculator02Picture}
+              videoPath={PV_4}
+              thumbnail={PI_4}
               isBlog={false}
               title="Calculator #02"
               description="I created this calculator using HTML, CSS, and JavaScript, inspired by a design found on Google."
@@ -218,8 +219,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={et1Video}
-              thumbnail={et1Picture}
+              videoPath={PV_3}
+              thumbnail={PI_3}
               isBlog={false}
               title="Email Template #01"
               description="This HTML/CSS email template was self-coded, inspired by a Youtube video."
@@ -230,8 +231,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={et2Video}
-              thumbnail={et2Picture}
+              videoPath={PV_2}
+              thumbnail={PI_2}
               isBlog={false}
               title="Email Template #02"
               description="This HTML/CSS email template was self-coded, inspired by a Youtube video."
@@ -242,8 +243,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              videoPath={landingpage01Video}
-              thumbnail={landingpage01Picture}
+              videoPath={PV_1}
+              thumbnail={PI_1}
               isBlog={false}
               title="Landing Page #01"
               description="This landing page is a conversion of a Figma design into a web page purely written of HTML and CSS."
