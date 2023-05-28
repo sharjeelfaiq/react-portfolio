@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 
 function Home2() {
   return (
@@ -65,6 +66,16 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
+                  href="https://wa.me/923368856575"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <BsWhatsapp />
+                </a>
+              </li>
+              {/* <li className="social-icons">
+                <a
                   href="https://twitter.com/SharjeelFaiq"
                   target="_blank"
                   rel="noreferrer"
@@ -72,7 +83,7 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/sharjeelfaiq/"
