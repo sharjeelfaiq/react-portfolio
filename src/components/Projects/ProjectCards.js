@@ -28,7 +28,7 @@ function ProjectCards(props) {
         <Card.Title>{props.title}</Card.Title>
         <Card.Text
           style={{
-            textAlign: "justify",
+            textAlign: "left",
             height: "150px",
             maxHeight: "120px",
             overFlow: "auto",
