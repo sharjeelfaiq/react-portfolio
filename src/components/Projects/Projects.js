@@ -20,8 +20,8 @@ import PV_13 from "../../Assets/ProjectsVideos/PV_13.mp4";
 import PV_14 from "../../Assets/ProjectsVideos/PV_14.mp4";
 import PV_15 from "../../Assets/ProjectsVideos/PV_15.mp4";
 import PV_16 from "../../Assets/ProjectsVideos/PV_16.mp4";
-// import PV_17 from "../../Assets/ProjectsVideos/PV_17.mp4";
-// import PV_18 from "../../Assets/ProjectsVideos/PV_18.mp4";
+import PV_17 from "../../Assets/ProjectsVideos/PV_17.mp4";
+import PV_18 from "../../Assets/ProjectsVideos/PV_18.mp4";
 
 // IMAGE IMPORT STATEMENTS
 import PI_1 from "../../Assets/ProjectsImgs/PI_1.PNG";
@@ -56,7 +56,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              // videoPath={PV_16}
+              videoPath={PV_18}
               thumbnail={PI_18}
               isBlog={false}
               title="Jotter's Pad"
@@ -68,7 +68,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // videoPath={PV_18}
+              videoPath={PV_17}
               thumbnail={PI_17}
               isBlog={false}
               title="Shayan Faiq"
