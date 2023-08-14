@@ -2,27 +2,29 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
+import LazyLoad from "react-lazyload";
 
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
       <div
         style={{
           display: "flex",
           justifyContent: "center",
         }}
       >
-        <video
-          controls
-          style={{ marginTop: "5px" }}
-          poster={props.thumbnail}
-          width="300"
-          height="200"
-        >
-          <source src={props.videoPath} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <LazyLoad height={200} width={300} >
+          <video
+            controls
+            style={{ marginTop: "5px" }}
+            poster={props.thumbnail}
+            width="300"
+            height="200"
+          >
+            <source src={props.videoPath} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </LazyLoad>
       </div>
       <Card.Body style={{}}>
         <Card.Title>{props.title}</Card.Title>

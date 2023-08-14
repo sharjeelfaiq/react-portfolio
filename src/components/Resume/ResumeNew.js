@@ -20,7 +20,7 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row className="resume">
-          <h3 className="resume-heading">Please feel free to download my latest resume, which is clickable and interactive. This will provide you with a comprehensive understanding of my skills and qualifications.</h3>
+          <h4 className="resume-heading">Please feel free to download my latest resume, which is clickable and interactive. This will provide you with a comprehensive understanding of my skills and qualifications.</h4>
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
