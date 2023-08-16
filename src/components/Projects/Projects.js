@@ -24,6 +24,7 @@ import PV_16 from "../../Assets/ProjectsVideos/PV_16.mp4";
 import PV_17 from "../../Assets/ProjectsVideos/PV_17.mp4";
 import PV_18 from "../../Assets/ProjectsVideos/PV_18.mp4";
 // import PV_19 from "../../Assets/ProjectsVideos/PV_19.mp4"; Video not available yet
+// import PV_20 from "../../Assets/ProjectsVideos/PV_20.mp4"; Video not available yet
 
 // IMAGE IMPORT STATEMENTS
 import PI_1 from "../../Assets/ProjectsImgs/PI_1.webp";
@@ -45,9 +46,20 @@ import PI_16 from "../../Assets/ProjectsImgs/PI_16.webp";
 import PI_17 from "../../Assets/ProjectsImgs/PI_17.webp";
 import PI_18 from "../../Assets/ProjectsImgs/PI_18.webp";
 import PI_19 from "../../Assets/ProjectsImgs/PI_19.webp";
+import PI_20 from "../../Assets/ProjectsImgs/PI_20.webp";
 
 function Projects() {
   const projectsData = [
+    {
+      // videoPath: PV_20,
+      thumbnail: PI_20,
+      isBlog: false,
+      title: "x-coin.network",
+      description:
+        "Revamped website visuals, adjusted content, and added engaging elements per client's vision. Deployed on Netlify for enhanced user experience.",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://x-coin-network.netlify.app/",
+    },
     {
       // videoPath: PV_19,
       thumbnail: PI_19,
