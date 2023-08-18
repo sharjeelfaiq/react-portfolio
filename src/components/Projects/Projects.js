@@ -121,6 +121,7 @@ function Projects() {
         "Introducing Textbotonline: a comprehensive, web-based React app. Edit, generate, and analyze text with ease. Experience its varied features now.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://textbotonline.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/textbotonline.git",
     },
     {
       videoPath: PV_13,
