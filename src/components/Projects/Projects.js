@@ -56,7 +56,7 @@ function Projects() {
       isBlog: false,
       title: "x-coin.network",
       description:
-        "Revamped website visuals, adjusted content, and added engaging elements per client's vision. Deployed on Netlify for enhanced user experience.",
+        "I revitalized site aesthetics, tailored content, and incorporated captivating features as per client's vision. Enhanced UX by deploying on Netlify.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://x-coin-network.netlify.app/",
     },
@@ -66,7 +66,7 @@ function Projects() {
       isBlog: false,
       title: "Nuturafit",
       description:
-        "I skillfully integrated a Shopify store with a Hostingerserved domain, deepening my DNS understanding and enhancing web solution proficiency.",
+        "I adeptly linked a Shopify store to a Hostinger domain, expanding my DNS expertise and elevating my web solution capabilities.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://www.nuturafit.com/",
     },
@@ -76,7 +76,7 @@ function Projects() {
       isBlog: false,
       title: "Jotter's Pad",
       description:
-        "A premade PHP template using Laravel and MySQL customized by me. It employs AI for instant content creation and attractive visuals to boost engagement.",
+        "I successfully personalized a Laravel-based PHP template with AI-driven content and engaging visuals, deploying it on Hostinger's cPanel for enhanced user engagement.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://jotterspad.com/",
     },
@@ -86,7 +86,7 @@ function Projects() {
       isBlog: false,
       title: "Shayan Faiq",
       description:
-        "WordPress website built with the Elementor plug-in and the Astra template, hosted by Hostinger",
+        "I skillfully crafted a WordPress Portfolio using Elementor and Astra, hosted on Hostinger. Focused on portfolio, site animations, and optimal speed.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://shayanfaiq.com/",
     },
