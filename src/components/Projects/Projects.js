@@ -23,8 +23,8 @@ import PV_15 from "../../Assets/ProjectsVideos/PV_15.mp4";
 import PV_16 from "../../Assets/ProjectsVideos/PV_16.mp4";
 import PV_17 from "../../Assets/ProjectsVideos/PV_17.mp4";
 import PV_18 from "../../Assets/ProjectsVideos/PV_18.mp4";
-// import PV_19 from "../../Assets/ProjectsVideos/PV_19.mp4"; Video not available yet
-// import PV_20 from "../../Assets/ProjectsVideos/PV_20.mp4"; Video not available yet
+import PV_19 from "../../Assets/ProjectsVideos/PV_19.mp4";
+import PV_20 from "../../Assets/ProjectsVideos/PV_20.mp4";
 
 // IMAGE IMPORT STATEMENTS
 import PI_1 from "../../Assets/ProjectsImgs/PI_1.webp";
@@ -51,7 +51,7 @@ import PI_20 from "../../Assets/ProjectsImgs/PI_20.webp";
 function Projects() {
   const projectsData = [
     {
-      // videoPath: PV_20,
+      videoPath: PV_20,
       thumbnail: PI_20,
       isBlog: false,
       title: "x-coin.network",
@@ -61,7 +61,7 @@ function Projects() {
       link: "https://x-coin-network.netlify.app/",
     },
     {
-      // videoPath: PV_19,
+      videoPath: PV_19,
       thumbnail: PI_19,
       isBlog: false,
       title: "Nuturafit",
