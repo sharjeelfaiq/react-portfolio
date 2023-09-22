@@ -50,7 +50,7 @@ function ProjectCards(props) {
             target="_blank"
           >
             <BiLinkExternal /> &nbsp;
-            {props.isBlog ? "View Blog" : "Demo"}
+            {"Demo"}
           </Button>
           <Button
             variant="primary"
