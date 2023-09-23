@@ -59,7 +59,7 @@ function Projects() {
       title: "Youngstarslabs",
       description: "Elevated React JS educational site with Hero Image Slider, multimedia, Vercel deployment",
       responsiveness: "Mobile Responsive? Yes!",
-      link: "https://youngstarslabs.com/",
+      link: "https://youngstarslabs.netlify.app/",
     },
     {
       // videoPath: PV_21,
