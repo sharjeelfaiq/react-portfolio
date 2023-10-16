@@ -68,6 +68,7 @@ function Projects() {
       description: "Transformed Google Forms into a React JS app, employing cutting-edge react-router capabilities for seamless page navigation.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://action-type.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/action-type.git",
     },
     {
       videoPath: PV_20,

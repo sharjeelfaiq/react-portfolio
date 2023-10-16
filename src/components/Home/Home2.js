@@ -26,8 +26,8 @@ function Home2() {
                         </h1>
                         <p className="home-about-body">
                             💻 I bring my expertise in HTML, CSS,
-                            Bootstrap, MUI React, JavaScript, React
-                            JS, and Node JS to the table to create
+                            Bootstrap, MUI React, JavaScript, Tailwind CSS, React
+                            JS, and Next JS to the table to create
                             visually stunning and high-performing
                             websites for businesses and organizations.
                             <br />
