@@ -90,7 +90,7 @@ function Projects() {
       videoPath: PV_18,
       thumbnail: PI_18,
       title: "Jotter's Pad",
-      description: "I successfully personalized a Laravel-based PHP template with AI-driven content and engaging visuals, deploying it on Hostinger's cPanel for enhanced user engagement.",
+      description: "I installed and configured a Laravel-based phpContent software with AI-driven content and engaging visuals—I also, personalized it and deployed it on Hostinger's cPanel for enhanced user engagement.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://jotterspad.com/",
     },
