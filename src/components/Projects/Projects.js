@@ -108,8 +108,8 @@ function Projects() {
       title: "Quetta Prayer Timings",
       description: "Integrating React JS and AlAdhan API for prompt updates based on International University guidelines and Hanafi Madhab, ensuring dynamic user experience.",
       responsiveness: "Mobile Responsive? Yes!",
-      link: "https://quetta-prayer-timings.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/quetta-prayer-timings",
+      link: "https://pakistanprayers.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/pakistanprayers",
     },
     {
       videoPath: PV_15,
