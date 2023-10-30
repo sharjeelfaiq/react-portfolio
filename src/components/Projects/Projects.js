@@ -105,8 +105,8 @@ function Projects() {
     {
       videoPath: PV_16,
       thumbnail: PI_16,
-      title: "Quetta Prayer Timings",
-      description: "Integrating React JS and AlAdhan API for prompt updates based on International University guidelines and Hanafi Madhab, ensuring dynamic user experience.",
+      title: "Pakistan Prayers",
+      description: "Integrating React JS and AlAdhan API for prompt namaz time updates for various cities of Pakistan based on International University guidelines and Hanafi Madhab, ensuring dynamic user experience.",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://pakistanprayers.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/pakistanprayers",
