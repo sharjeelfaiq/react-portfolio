@@ -24,8 +24,9 @@ import PV_17 from "../../Assets/ProjectsVideos/PV_17.mp4";
 import PV_18 from "../../Assets/ProjectsVideos/PV_18.mp4";
 import PV_19 from "../../Assets/ProjectsVideos/PV_19.mp4";
 import PV_20 from "../../Assets/ProjectsVideos/PV_20.mp4";
-/* import PV_21 from "../../Assets/ProjectsVideos/PV_21.mp4";
-import PV_22 from "../../Assets/ProjectsVideos/PV_22.mp4"; */
+import PV_21 from "../../Assets/ProjectsVideos/PV_21.mp4";
+import PV_22 from "../../Assets/ProjectsVideos/PV_22.mp4";
+import PV_23 from "../../Assets/ProjectsVideos/PV_23.mp4";
 
 // IMAGE IMPORT STATEMENTS
 import PI_1 from "../../Assets/ProjectsImgs/PI_1.webp";
@@ -50,11 +51,20 @@ import PI_19 from "../../Assets/ProjectsImgs/PI_19.webp";
 import PI_20 from "../../Assets/ProjectsImgs/PI_20.webp";
 import PI_21 from "../../Assets/ProjectsImgs/PI_21.webp";
 import PI_22 from "../../Assets/ProjectsImgs/PI_22.webp";
+import PI_23 from "../../Assets/ProjectsImgs/PI_23.webp";
 
 function Projects() {
   const projectsData = [
     {
-      // videoPath: PV_22,
+      videoPath: PV_23,
+      thumbnail: PI_23,
+      title: "Concierge Clients Landing Page",
+      description: "Crafted a captivating WordPress landing page for a nursing agency, showcasing expertise with precision and flair.",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://elandingpages.net/carewell-concierge-clients-landing-page/#8889616369",
+    },
+    {
+      videoPath: PV_22,
       thumbnail: PI_22,
       title: "Youngstarslabs",
       description: "Elevated React JS educational site with Hero Image Slider, multimedia, Vercel deployment",
@@ -62,7 +72,7 @@ function Projects() {
       link: "https://youngstarslabs.netlify.app/",
     },
     {
-      // videoPath: PV_21,
+      videoPath: PV_21,
       thumbnail: PI_21,
       title: "Acion-Type",
       description: "Transformed Google Forms into a React JS app, employing cutting-edge react-router capabilities for seamless page navigation.",
