@@ -27,6 +27,8 @@ import PV_20 from "../../Assets/ProjectsVideos/PV_20.mp4";
 import PV_21 from "../../Assets/ProjectsVideos/PV_21.mp4";
 import PV_22 from "../../Assets/ProjectsVideos/PV_22.mp4";
 import PV_23 from "../../Assets/ProjectsVideos/PV_23.mp4";
+import PV_24 from "../../Assets/ProjectsVideos/PV_24.mp4";
+import PV_25 from "../../Assets/ProjectsVideos/PV_25.mp4";
 
 // IMAGE IMPORT STATEMENTS
 import PI_1 from "../../Assets/ProjectsImgs/PI_1.webp";
@@ -52,9 +54,27 @@ import PI_20 from "../../Assets/ProjectsImgs/PI_20.webp";
 import PI_21 from "../../Assets/ProjectsImgs/PI_21.webp";
 import PI_22 from "../../Assets/ProjectsImgs/PI_22.webp";
 import PI_23 from "../../Assets/ProjectsImgs/PI_23.webp";
+import PI_24 from "../../Assets/ProjectsImgs/PI_24.webp";
+import PI_25 from "../../Assets/ProjectsImgs/PI_25.webp";
 
 function Projects() {
   const projectsData = [
+    {
+      videoPath: PV_25,
+      thumbnail: PI_25,
+      title: "Power Your Mind",
+      description: "Created a static website for medical practices.",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://pwmind.netlify.app/",
+    },
+    {
+      videoPath: PV_24,
+      thumbnail: PI_24,
+      title: "UMED LLC",
+      description: "Created a static website for medical practices.",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://umedllc.netlify.app/",
+    },
     {
       videoPath: PV_23,
       thumbnail: PI_23,
