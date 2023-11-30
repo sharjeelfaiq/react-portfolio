@@ -29,6 +29,7 @@ import PV_22 from "../../Assets/ProjectsVideos/PV_22.mp4";
 import PV_23 from "../../Assets/ProjectsVideos/PV_23.mp4";
 import PV_24 from "../../Assets/ProjectsVideos/PV_24.mp4";
 import PV_25 from "../../Assets/ProjectsVideos/PV_25.mp4";
+import PV_26 from "../../Assets/ProjectsVideos/PV_26.mp4";
 
 // IMAGE IMPORT STATEMENTS
 import PI_1 from "../../Assets/ProjectsImgs/PI_1.webp";
@@ -56,9 +57,19 @@ import PI_22 from "../../Assets/ProjectsImgs/PI_22.webp";
 import PI_23 from "../../Assets/ProjectsImgs/PI_23.webp";
 import PI_24 from "../../Assets/ProjectsImgs/PI_24.webp";
 import PI_25 from "../../Assets/ProjectsImgs/PI_25.webp";
+import PI_26 from "../../Assets/ProjectsImgs/PI_26.webp";
 
 function Projects() {
   const projectsData = [
+    {
+      videoPath: PV_26,
+      thumbnail: PI_26,
+      title: "TechTrip - Shopping Cart",
+      description: "Created a shopping cart with add to and remove from cart functionality in React JS, Tailwind CSS. Used Context API, Ant Design, and React Router Dom npm libraries along with a custom design.",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://techtrip.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/techtrip.git"
+    },
     {
       videoPath: PV_25,
       thumbnail: PI_25,
@@ -285,8 +296,8 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Presenting recent projects personally developed and deployed on
-          various platforms including Hostinger, Vercel, Netlify and else for your
+          Presenting recent web projects developed and deployed on
+          various hosting providers such as Hostinger, Vercel, Netlify and else for your
           consideration.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
