@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "./Frontend React JS & WordPress Developer.pdf";
+import pdf from "./Mern Stack Developer.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -21,7 +21,7 @@ function ResumeNew() {
         <Particle />
         <Row className="resume">
           <h4 className="resume-heading">Please download my interactive resume for a comprehensive view of my skills and qualifications.</h4>
-          <Document file={pdf} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center my-3">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>

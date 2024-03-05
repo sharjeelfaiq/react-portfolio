@@ -8,19 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I'm Sharjeel Faiq, a Frontend React JS Developer
-            with 4+ years of experience in coding. Skilled in front-end
-            frameworks <span className="purple">(Bootstrap, Material UI, Tailwind CSS)</span>,
-            hosting services, version control{" "}
-            <span className="purple">(Git, Github)</span>, and project
-            management <span className="purple">(Jira, & Trello)</span>. My forte includes seamless API integration for dynamic global web applications. I've delighted multiple
-            clients on Fiverr and locally, delivering high-quality results.
-            Proficient in JavaScript and its frameworks{" "}
-            <span className="purple">
-              (React JS, & Next JS)
-            </span>
-            , I create dynamic applications. Let's embark on this journey
-            together, where innovation meets passion.
+            MERN Stack Developer with <span className="purple">4 years of working experience</span>. Proficient in HTML, CSS, and JavaScript, and its frameworks/libraries i.e React JS, Next JS, Node JS, Express JS and MongoDB. Skilled in CSS frameworks i.e. Bootstrap, Material UI, Tailwind CSS. Rich experience in Website Deployment. Relentlessly practicing version control with Git and Github. Been a part of project management in Jira and Trello. Proficient in seamless API integration for dynamic global web applications.
+
           </p>
           {/* <ImPointRight />  */}
           <p style={{ color: "rgb(155 126 172)" }}>
