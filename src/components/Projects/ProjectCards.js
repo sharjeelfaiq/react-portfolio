@@ -20,7 +20,7 @@ function ProjectCards(props) {
         <Card.Text
           style={{
             textAlign: "left",
-            height: "50px",
+            height: "80px",
             maxHeight: "120px",
             overFlow: "auto",
             marginTop:"20px"

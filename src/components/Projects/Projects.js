@@ -25,9 +25,18 @@ import PI_18 from "../../Assets/ProjectsImgs/PI_18.webp";
 import PI_19 from "../../Assets/ProjectsImgs/PI_19.webp";
 import PI_20 from "../../Assets/ProjectsImgs/PI_20.webp";
 import PI_21 from "../../Assets/ProjectsImgs/PI_21.webp";
+import PI_22 from "../../Assets/ProjectsImgs/PI_22.webp";
 
 function Projects() {
   const projectsData = [
+    {
+      image: PI_22,
+      title: "Random User Generator",
+      description: "React JS | Tailwind CSS | Random User Generator API",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://random-user-finder-16.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/random-user-finder"
+    },
     {
       image: PI_21,
       title: "TechTrip - Shopping Cart",
@@ -97,6 +106,7 @@ function Projects() {
       image: PI_12,
       title: "Pakistan Prayers",
       description: "React JS | Al-Adhan API",
+      responsiveness: "Mobile Responsive? No!",
       link: "https://pakistanprayers.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/pakistanprayers",
     },
