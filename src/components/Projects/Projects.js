@@ -35,7 +35,7 @@ function Projects() {
       description: "React JS | Tailwind CSS | Random User Generator API",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://random-user-finder-16.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/random-user-finder"
+      repo: "https://github.com/sharjeelfaiq/random-user-finder",
     },
     {
       image: PI_21,
@@ -43,7 +43,60 @@ function Projects() {
       description: "React JS | Tailwind CSS | Ant Design",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://techtrip.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/techtrip.git"
+      repo: "https://github.com/sharjeelfaiq/techtrip.git",
+    },
+    {
+      image: PI_10,
+      title: "Textbotonline",
+      description: "React JS | BootStrap | Open-AI API",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://textbotonline.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/textbotonline.git",
+    },
+    {
+      image: PI_17,
+      title: "Youngstarslabs",
+      description: "React JS | Tailwind CSS",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://youngstarslabs.netlify.app/",
+    },
+    {
+      image: PI_12,
+      title: "Pakistan Prayers",
+      description: "React JS | Al-Adhan API",
+      responsiveness: "Mobile Responsive? No!",
+      link: "https://pakistanprayers.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/pakistanprayers",
+    },
+    {
+      image: PI_9,
+      title: "TaskMate",
+      description: "React JS | Material UI",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://taskmate610.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/TaskMate",
+    },
+    {
+      image: PI_16,
+      title: "Acion-Type",
+      description: "React JS",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://action-type.netlify.app/",
+      repo: "https://github.com/sharjeelfaiq/action-type.git",
+    },
+    {
+      image: PI_13,
+      title: "Shayan Faiq",
+      description: "WordPress | Astra | Elementor",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://shayanfaiq.com/",
+    },
+    {
+      image: PI_18,
+      title: "Concierge Clients Landing Page",
+      description: "WordPress | Elementor",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://elandingpages.net/carewell-concierge-clients-landing-page/#8889616369",
     },
     {
       image: PI_20,
@@ -60,28 +113,6 @@ function Projects() {
       link: "https://umedllc.netlify.app/",
     },
     {
-      image: PI_18,
-      title: "Concierge Clients Landing Page",
-      description: "WordPress | Elementor",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://elandingpages.net/carewell-concierge-clients-landing-page/#8889616369",
-    },
-    {
-      image: PI_17,
-      title: "Youngstarslabs",
-      description: "React JS | Tailwind CSS",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://youngstarslabs.netlify.app/",
-    },
-    {
-      image: PI_16,
-      title: "Acion-Type",
-      description: "React JS",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://action-type.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/action-type.git",
-    },
-    {
       image: PI_15,
       title: "x-coin.network",
       description: "HTML | CSS | JavaScript",
@@ -96,43 +127,12 @@ function Projects() {
       link: "https://jotterspad.com/",
     },
     {
-      image: PI_13,
-      title: "Shayan Faiq",
-      description: "WordPress | Astra | Elementor",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://shayanfaiq.com/",
-    },
-    {
-      image: PI_12,
-      title: "Pakistan Prayers",
-      description: "React JS | Al-Adhan API",
-      responsiveness: "Mobile Responsive? No!",
-      link: "https://pakistanprayers.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/pakistanprayers",
-    },
-    {
       image: PI_11,
       title: "SWAPI Demo Site",
       description: "React JS | BootStrap | Starwars API",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://swapi-demo-site.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/Starwars-api-usage-with-react-and-bootstrap.git",
-    },
-    {
-      image: PI_10,
-      title: "Textbotonline",
-      description: "React JS | BootStrap | Open-AI API",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://textbotonline.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/textbotonline.git",
-    },
-    {
-      image: PI_9,
-      title: "TaskMate",
-      description: "React JS | Material UI",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://taskmate610.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/TaskMate",
     },
     {
       image: PI_8,
@@ -206,8 +206,8 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Presenting recent web projects developed and deployed on
-          various hosting providers such as Hostinger, Vercel, Netlify and else for your
+          Presenting recent web projects developed and deployed on various
+          hosting providers such as Hostinger, Vercel, Netlify and else for your
           consideration.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
