@@ -3,34 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-// VIDEO IMPORT STATEMENTS
-import PV_1 from "../../Assets/ProjectsVideos/PV_1.mp4";
-import PV_2 from "../../Assets/ProjectsVideos/PV_2.mp4";
-import PV_3 from "../../Assets/ProjectsVideos/PV_3.mp4";
-import PV_4 from "../../Assets/ProjectsVideos/PV_4.mp4";
-import PV_5 from "../../Assets/ProjectsVideos/PV_5.mp4";
-import PV_6 from "../../Assets/ProjectsVideos/PV_6.mp4";
-import PV_7 from "../../Assets/ProjectsVideos/PV_7.mp4";
-// import PV_8 from "../../Assets/ProjectsVideos/PV_8.mp4";
-import PV_9 from "../../Assets/ProjectsVideos/PV_9.mp4";
-import PV_10 from "../../Assets/ProjectsVideos/PV_10.mp4";
-import PV_11 from "../../Assets/ProjectsVideos/PV_11.mp4";
-import PV_12 from "../../Assets/ProjectsVideos/PV_12.mp4";
-import PV_13 from "../../Assets/ProjectsVideos/PV_13.mp4";
-import PV_14 from "../../Assets/ProjectsVideos/PV_14.mp4";
-import PV_15 from "../../Assets/ProjectsVideos/PV_15.mp4";
-import PV_16 from "../../Assets/ProjectsVideos/PV_16.mp4";
-import PV_17 from "../../Assets/ProjectsVideos/PV_17.mp4";
-import PV_18 from "../../Assets/ProjectsVideos/PV_18.mp4";
-import PV_19 from "../../Assets/ProjectsVideos/PV_19.mp4";
-import PV_20 from "../../Assets/ProjectsVideos/PV_20.mp4";
-import PV_21 from "../../Assets/ProjectsVideos/PV_21.mp4";
-import PV_22 from "../../Assets/ProjectsVideos/PV_22.mp4";
-import PV_23 from "../../Assets/ProjectsVideos/PV_23.mp4";
-import PV_24 from "../../Assets/ProjectsVideos/PV_24.mp4";
-import PV_25 from "../../Assets/ProjectsVideos/PV_25.mp4";
-import PV_26 from "../../Assets/ProjectsVideos/PV_26.mp4";
-
 // IMAGE IMPORT STATEMENTS
 import PI_1 from "../../Assets/ProjectsImgs/PI_1.webp";
 import PI_2 from "../../Assets/ProjectsImgs/PI_2.webp";
@@ -39,7 +11,7 @@ import PI_4 from "../../Assets/ProjectsImgs/PI_4.webp";
 import PI_5 from "../../Assets/ProjectsImgs/PI_5.webp";
 import PI_6 from "../../Assets/ProjectsImgs/PI_6.webp";
 import PI_7 from "../../Assets/ProjectsImgs/PI_7.webp";
-// import PI_8 from "../../Assets/ProjectsImgs/PI_8.webp";
+import PI_8 from "../../Assets/ProjectsImgs/PI_8.webp";
 import PI_9 from "../../Assets/ProjectsImgs/PI_9.webp";
 import PI_10 from "../../Assets/ProjectsImgs/PI_10.webp";
 import PI_11 from "../../Assets/ProjectsImgs/PI_11.webp";
@@ -53,235 +25,163 @@ import PI_18 from "../../Assets/ProjectsImgs/PI_18.webp";
 import PI_19 from "../../Assets/ProjectsImgs/PI_19.webp";
 import PI_20 from "../../Assets/ProjectsImgs/PI_20.webp";
 import PI_21 from "../../Assets/ProjectsImgs/PI_21.webp";
-import PI_22 from "../../Assets/ProjectsImgs/PI_22.webp";
-import PI_23 from "../../Assets/ProjectsImgs/PI_23.webp";
-import PI_24 from "../../Assets/ProjectsImgs/PI_24.webp";
-import PI_25 from "../../Assets/ProjectsImgs/PI_25.webp";
-import PI_26 from "../../Assets/ProjectsImgs/PI_26.webp";
 
 function Projects() {
   const projectsData = [
     {
-      videoPath: PV_26,
-      thumbnail: PI_26,
+      image: PI_21,
       title: "TechTrip - Shopping Cart",
-      description: "Created a shopping cart with add to and remove from cart functionality in React JS, Tailwind CSS. Used Context API, Ant Design, and React Router Dom npm libraries along with a custom design.",
+      description: "React JS | Tailwind CSS | Ant Design",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://techtrip.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/techtrip.git"
     },
     {
-      videoPath: PV_25,
-      thumbnail: PI_25,
+      image: PI_20,
       title: "Power Your Mind",
-      description: "Created a static website for medical practices.",
+      description: "HTML | CSS | JavaScript",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://pwmind.netlify.app/",
     },
     {
-      videoPath: PV_24,
-      thumbnail: PI_24,
+      image: PI_19,
       title: "UMED LLC",
-      description: "Created a static website for medical practices.",
+      description: "HTML | CSS | JavaScript",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://umedllc.netlify.app/",
     },
     {
-      videoPath: PV_23,
-      thumbnail: PI_23,
+      image: PI_18,
       title: "Concierge Clients Landing Page",
-      description: "Crafted a captivating WordPress landing page for a nursing agency, showcasing expertise with precision and flair.",
+      description: "WordPress | Elementor",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://elandingpages.net/carewell-concierge-clients-landing-page/#8889616369",
     },
     {
-      videoPath: PV_22,
-      thumbnail: PI_22,
+      image: PI_17,
       title: "Youngstarslabs",
-      description: "Elevated React JS educational site with Hero Image Slider, multimedia, Vercel deployment",
+      description: "React JS | Tailwind CSS",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://youngstarslabs.netlify.app/",
     },
     {
-      videoPath: PV_21,
-      thumbnail: PI_21,
+      image: PI_16,
       title: "Acion-Type",
-      description: "Transformed Google Forms into a React JS app, employing cutting-edge react-router capabilities for seamless page navigation.",
+      description: "React JS",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://action-type.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/action-type.git",
     },
     {
-      videoPath: PV_20,
-      thumbnail: PI_20,
+      image: PI_15,
       title: "x-coin.network",
-      description: "I revitalized site aesthetics, tailored content, and incorporated captivating features as per client's vision. Enhanced UX by deploying on Netlify.",
+      description: "HTML | CSS | JavaScript",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://x-coin-network.netlify.app/",
     },
     {
-      videoPath: PV_19,
-      thumbnail: PI_19,
-      title: "Nuturafit",
-      description: "I adeptly linked a Shopify store to a Hostinger domain, expanding my DNS expertise and elevating my web solution capabilities.",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://www.nuturafit.com/",
-    },
-    {
-      videoPath: PV_18,
-      thumbnail: PI_18,
+      image: PI_14,
       title: "Jotter's Pad",
-      description: "I installed and configured a Laravel-based phpContent software with AI-driven content and engaging visuals—I also, personalized it and deployed it on Hostinger's cPanel for enhanced user engagement.",
+      description: "PHP | Laravel",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://jotterspad.com/",
     },
     {
-      videoPath: PV_17,
-      thumbnail: PI_17,
+      image: PI_13,
       title: "Shayan Faiq",
-      description: "I skillfully crafted a WordPress Portfolio using Elementor and Astra, hosted on Hostinger. Focused on portfolio, site animations, and optimal speed.",
+      description: "WordPress | Astra | Elementor",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://shayanfaiq.com/",
     },
     {
-      videoPath: PV_16,
-      thumbnail: PI_16,
+      image: PI_12,
       title: "Pakistan Prayers",
-      description: "Integrating React JS and AlAdhan API for prompt namaz time updates for various cities of Pakistan based on International University guidelines and Hanafi Madhab, ensuring dynamic user experience.",
-      responsiveness: "Mobile Responsive? Yes!",
+      description: "React JS | Al-Adhan API",
       link: "https://pakistanprayers.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/pakistanprayers",
     },
     {
-      videoPath: PV_15,
-      thumbnail: PI_15,
+      image: PI_11,
       title: "SWAPI Demo Site",
-      description: "The SWAPI Demo Site showcases Bootstrap and React JS synergy, demonstrating Starwars API potential through seamless modern web development.",
+      description: "React JS | BootStrap | Starwars API",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://swapi-demo-site.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/Starwars-api-usage-with-react-and-bootstrap.git",
     },
     {
-      videoPath: PV_14,
-      thumbnail: PI_14,
+      image: PI_10,
       title: "Textbotonline",
-      description: "Introducing Textbotonline: a comprehensive, web-based React app. Edit, generate, and analyze text with ease. Experience its varied features now.",
+      description: "React JS | BootStrap | Open-AI API",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://textbotonline.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/textbotonline.git",
     },
     {
-      videoPath: PV_13,
-      thumbnail: PI_13,
-      title: "Sharjeel Faiq",
-      description: "I customized and deployed a React JS portfolio template on Netlify for a professional web presence.",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://sharjeelfaiq610.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/textbotonline",
-    },
-    {
-      videoPath: PV_12,
-      thumbnail: PI_12,
-      title: "Child To Parent Props (React)",
-      description: "Exemplifying data flow between child and parent components, this page harmonizes Material UI and React JS to showcase my expertise.",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://pass-props-from-child-to-parent.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/passsing-props-from-child-to-parents",
-    },
-    {
-      videoPath: PV_11,
-      thumbnail: PI_11,
-      title: "TaskMate (MUI + React)",
-      description: "Exclusively utilizing Material UI and React JS, I developed this application designed for task management and organization.",
+      image: PI_9,
+      title: "TaskMate",
+      description: "React JS | Material UI",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://taskmate610.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/TaskMate",
     },
     {
-      videoPath: PV_10,
-      thumbnail: PI_10,
-      title: "Sharjeel Faiq",
-      description: "Highly customized and deployed this React JS portfolio template on Netlify. Customized for professionalism and functionality.",
-      responsiveness: "Mobile Responsive? Yes!",
-      link: "https://sharjeelfaiq.netlify.app/",
-      repo: "https://github.com/sharjeelfaiq/react-portfolio.git",
-    },
-    {
-      videoPath: PV_9,
-      thumbnail: PI_9,
-
+      image: PI_8,
       title: "MemoMate",
-      description: "Elevating creativity with MemoMate: Crafted with Bootstrap 5.2 and pure JavaScript, a notes-taking app stands as a testament to innovation.",
+      description: "Bootstrap | VaniLla JS",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://memomate.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/MemoMate-Notes-taking-Web-App-",
     },
-    // {
-    //   videoPath: PV_8,
-    //   thumbnail: PI_8,
-    //   isBlog: false,
-    //   title: "Calendar",
-    //   description: "This calendar is purely made with HTML, CSS, JavaScript and jQuery...",
-    //   responsiveness: "Mobile Responsive? Yes!",
-    //   link: "https://mycalendar610.netlify.app/",
-    // },
     {
-      videoPath: PV_7,
-      thumbnail: PI_7,
+      image: PI_7,
       title: "Go Nobita Go (Mini Game)",
-      description: "Crafted with elegantly structured HTML, CSS, and JavaScript, this mini game draws inspiration from the offline classic, Dino.",
+      description: "HTML | CSS | JavaScript",
       responsiveness: "Mobile Responsive? No!",
       link: "https://jump-nobita-jump.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/jump-nobita-jump",
     },
     {
-      videoPath: PV_6,
-      thumbnail: PI_6,
+      image: PI_6,
       title: "School Himalayas",
-      description: "Empowering Himalayan children's education, the website employs HTML, CSS, JavaScript, and captivating animations for impactful learning.",
+      description: "HTML | CSS",
       responsiveness: "Mobile Responsive? No!",
       link: "https://schoolhimalayas.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/custom-school-website-template",
     },
     {
-      videoPath: PV_5,
-      thumbnail: PI_5,
+      image: PI_5,
       title: "Calculator #01",
-      description: "Employing HTML, CSS, and JavaScript, I crafted this calculator, drawing design inspiration from a YouTube tutorial while coding it originally.",
+      description: "HTML | CSS | JavaScript",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://calculator6101.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/custom-calculator-using-html-css-javascript",
     },
     {
-      videoPath: PV_4,
-      thumbnail: PI_4,
+      image: PI_4,
       title: "Calculator #02",
-      description: "Crafted using HTML, CSS, and JavaScript, this calculator reflects a Google-inspired design, showcasing web development's boundless creative potential.",
+      description: "HTML | CSS | JavaScript",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://calculator6102.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/custom-calculator-with-HTML-CSS-JS",
     },
     {
-      videoPath: PV_3,
-      thumbnail: PI_3,
+      image: PI_3,
       title: "Email Template #01",
-      description: "I was able to transform a YouTube video into a professional HTML/CSS email template thanks to my own self-driven study and practical experimentation.",
+      description: "HTML | CSS",
       responsiveness: "Mobile Responsive? No!",
       link: "https://emailtemplate6101.netlify.app/",
     },
     {
-      videoPath: PV_2,
-      thumbnail: PI_2,
+      image: PI_2,
       title: "Email Template #02",
-      description: "Self-driven learning and hands-on exploration empowered me to create a professional HTML/CSS email template.",
+      description: "HTML | CSS",
       responsiveness: "Mobile Responsive? No!",
       link: "https://emailtemplate6102.netlify.app/",
     },
     {
-      videoPath: PV_1,
-      thumbnail: PI_1,
+      image: PI_1,
       title: "Landing Page #01",
-      description: "This landing page is a conversion of a Figma design into a web page purely written of HTML and CSS.",
+      description: "HTML | CSS",
       responsiveness: "Mobile Responsive? No!",
       link: "https://oneposotion.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/custom-landing-page-Oneposotion",

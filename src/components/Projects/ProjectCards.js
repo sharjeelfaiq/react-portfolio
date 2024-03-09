@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
-import LazyLoad from "react-lazyload";
 
 function ProjectCards(props) {
   return (
@@ -11,32 +10,26 @@ function ProjectCards(props) {
         style={{
           display: "flex",
           justifyContent: "center",
+          marginTop: "10px",
         }}
       >
-        <LazyLoad height={200} width={300} >
-          <video
-            controls
-            style={{ marginTop: "5px" }}
-            poster={props.thumbnail}
-            width="300"
-            height="200"
-          >
-            <source src={props.videoPath} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </LazyLoad>
+        <img src={props.image} width="350" height="200" alt="" />
       </div>
       <Card.Body style={{}}>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text
           style={{
             textAlign: "left",
-            height: "150px",
+            height: "50px",
             maxHeight: "120px",
             overFlow: "auto",
+            marginTop:"20px"
           }}
         >
-          {props.description}
+          <div style={{ width: "100%", textAlign: "center" }}>
+            <h6 style={{ fontWeight: "bold" }}>Made with</h6>
+            {props.description}
+          </div>
         </Card.Text>
         <Card.Text style={{ textAlign: "center", fontWeight: "bolder" }}>
           {props.responsiveness}
@@ -59,8 +52,13 @@ function ProjectCards(props) {
             target="_blank"
             style={{ width: "7.5rem" }}
           >
-            <BiLinkExternal /> &nbsp;
-            {props.repo ? "Repo" : "No Repo"}
+            {props.repo ? (
+              <>
+                <BiLinkExternal /> &nbsp; Repo
+              </>
+            ) : (
+              "No Repo"
+            )}
           </Button>
         </div>
       </Card.Body>
