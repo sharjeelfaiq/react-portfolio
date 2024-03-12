@@ -26,9 +26,17 @@ import PI_19 from "../../Assets/ProjectsImgs/PI_19.webp";
 import PI_20 from "../../Assets/ProjectsImgs/PI_20.webp";
 import PI_21 from "../../Assets/ProjectsImgs/PI_21.webp";
 import PI_22 from "../../Assets/ProjectsImgs/PI_22.webp";
+import PI_23 from "../../Assets/ProjectsImgs/PI_23.webp";
 
 function Projects() {
   const projectsData = [
+    {
+      image: PI_23,
+      title: "E-Commerce Dashboard",
+      description: "React | Node | Express | MongoDB | Tailwind CSS",
+      responsiveness: "Mobile Responsive? Yes!",
+      link: "https://e-com-16.netlify.app/",
+    },
     {
       image: PI_22,
       title: "Random User Generator",
@@ -40,7 +48,7 @@ function Projects() {
     {
       image: PI_21,
       title: "TechTrip - Shopping Cart",
-      description: "React JS | Tailwind CSS | Ant Design",
+      description: "React JS | useContext() API | Tailwind CSS | Ant Design",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://techtrip.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/techtrip.git",
@@ -48,7 +56,7 @@ function Projects() {
     {
       image: PI_10,
       title: "Textbotonline",
-      description: "React JS | BootStrap | Open-AI API",
+      description: "React JS | Open-AI API | BootStrap 5.0",
       responsiveness: "Mobile Responsive? Yes!",
       link: "https://textbotonline.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/textbotonline.git",
@@ -63,7 +71,7 @@ function Projects() {
     {
       image: PI_12,
       title: "Pakistan Prayers",
-      description: "React JS | Al-Adhan API",
+      description: "React JS | Al-Adhan API | Bootstrap 5.0",
       responsiveness: "Mobile Responsive? No!",
       link: "https://pakistanprayers.netlify.app/",
       repo: "https://github.com/sharjeelfaiq/pakistanprayers",
