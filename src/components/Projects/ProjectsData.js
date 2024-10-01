@@ -11,6 +11,13 @@ import pImg10 from "../../Assets/ProjectsImgs/pImg10.png";
 
 export const projectsData = [
   {
+    image: pImg10,
+    title: "Quiz Bucket",
+    description: "React JS | Tailwind CSS",
+    responsiveness: "Mobile Responsive? Yes!",
+    link: "https://quiz-bucket.netlify.app/",
+  },
+  {
     image: pImg1,
     title: "TaskMate",
     description: "React JS | Material UI",
@@ -77,12 +84,5 @@ export const projectsData = [
     description: "React | Node | Express | MongoDB | Tailwind CSS",
     responsiveness: "Mobile Responsive? Yes!",
     link: "https://e-com-16.netlify.app/",
-  },
-  {
-    image: pImg10,
-    title: "Quiz Bucket",
-    description: "React JS | Tailwind CSS",
-    responsiveness: "Mobile Responsive? Yes!",
-    link: "https://quiz-bucket.netlify.app/",
   },
 ];
