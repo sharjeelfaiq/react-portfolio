@@ -1,12 +1,13 @@
-import pImg1 from "../../Assets/ProjectsImgs/PI_9.webp";
-import pImg2 from "../../Assets/ProjectsImgs/PI_10.webp";
-import pImg3 from "../../Assets/ProjectsImgs/PI_12.webp";
-import pImg4 from "../../Assets/ProjectsImgs/PI_15.webp";
-import pImg5 from "../../Assets/ProjectsImgs/PI_17.webp";
-import pImg6 from "../../Assets/ProjectsImgs/PI_19.webp";
-import pImg7 from "../../Assets/ProjectsImgs/PI_21.webp";
-import pImg8 from "../../Assets/ProjectsImgs/PI_22.webp";
-import pImg9 from "../../Assets/ProjectsImgs/PI_23.webp";
+import pImg1 from "../../Assets/ProjectsImgs/pImg1.webp";
+import pImg2 from "../../Assets/ProjectsImgs/pImg2.webp";
+import pImg3 from "../../Assets/ProjectsImgs/pImg3.webp";
+import pImg4 from "../../Assets/ProjectsImgs/pImg4.webp";
+import pImg5 from "../../Assets/ProjectsImgs/pImg5.webp";
+import pImg6 from "../../Assets/ProjectsImgs/pImg6.webp";
+import pImg7 from "../../Assets/ProjectsImgs/pImg7.webp";
+import pImg8 from "../../Assets/ProjectsImgs/pImg8.webp";
+import pImg9 from "../../Assets/ProjectsImgs/pImg9.webp";
+import pImg10 from "../../Assets/ProjectsImgs/pImg10.png";
 
 export const projectsData = [
   {
@@ -76,5 +77,12 @@ export const projectsData = [
     description: "React | Node | Express | MongoDB | Tailwind CSS",
     responsiveness: "Mobile Responsive? Yes!",
     link: "https://e-com-16.netlify.app/",
+  },
+  {
+    image: pImg10,
+    title: "Quiz Bucket",
+    description: "React JS | Tailwind CSS",
+    responsiveness: "Mobile Responsive? Yes!",
+    link: "https://quiz-bucket.netlify.app/",
   },
 ];
