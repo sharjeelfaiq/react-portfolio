@@ -12,11 +12,6 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Presenting recent web projects developed and deployed on various
-          hosting providers such as Hostinger, Vercel, Netlify and else for your
-          consideration.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {projectsData.map((project, index) => (
             <Col key={index} md={4} className="project-card">
