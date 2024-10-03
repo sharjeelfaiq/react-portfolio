@@ -38,8 +38,8 @@ export const projectsData = [
     title: "Pakistan Prayers",
     description: "React JS | Al-Adhan API | Bootstrap 5.0",
     responsiveness: "Mobile Responsive? No!",
-    link: "https://pakistanprayers.netlify.app/",
-    repo: "https://github.com/sharjeelfaiq/pakistanprayers",
+    link: "https://globalprayers.netlify.app/",
+    repo: "https://github.com/sharjeelfaiq/globalprayers",
   },
   {
     image: pImg4,
