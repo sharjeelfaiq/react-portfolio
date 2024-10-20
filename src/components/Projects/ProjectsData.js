@@ -8,8 +8,32 @@ import pImg7 from "../../Assets/ProjectsImgs/pImg7.webp";
 import pImg8 from "../../Assets/ProjectsImgs/pImg8.webp";
 import pImg9 from "../../Assets/ProjectsImgs/pImg9.webp";
 import pImg10 from "../../Assets/ProjectsImgs/pImg10.png";
+import pImg11 from "../../Assets/ProjectsImgs/pImg11.webp";
 
 export const projectsData = [
+  {
+    image: pImg11,
+    title: "RunTimeGurus",
+    description: "React JS | Tailwind CSS",
+    responsiveness: "Mobile Responsive? Yes!",
+    link: "https://runtimegurus.com/",
+  },
+  {
+    image: pImg3,
+    title: "Pakistan Prayers",
+    description: "React JS | Al-Adhan API | Bootstrap 5.0",
+    responsiveness: "Mobile Responsive? No!",
+    link: "https://globalprayers.netlify.app/",
+    repo: "https://github.com/sharjeelfaiq/globalprayers",
+  },
+  {
+    image: pImg2,
+    title: "Textbotonline",
+    description: "React JS | Open-AI API | BootStrap 5.0",
+    responsiveness: "Mobile Responsive? Yes!",
+    link: "https://textbotonline.netlify.app/",
+    repo: "https://github.com/sharjeelfaiq/textbotonline.git",
+  },
   {
     image: pImg10,
     title: "Quiz Bucket",
@@ -24,22 +48,6 @@ export const projectsData = [
     responsiveness: "Mobile Responsive? Yes!",
     link: "https://taskmate610.netlify.app/",
     repo: "https://github.com/sharjeelfaiq/TaskMate",
-  },
-  {
-    image: pImg2,
-    title: "Textbotonline",
-    description: "React JS | Open-AI API | BootStrap 5.0",
-    responsiveness: "Mobile Responsive? Yes!",
-    link: "https://textbotonline.netlify.app/",
-    repo: "https://github.com/sharjeelfaiq/textbotonline.git",
-  },
-  {
-    image: pImg3,
-    title: "Pakistan Prayers",
-    description: "React JS | Al-Adhan API | Bootstrap 5.0",
-    responsiveness: "Mobile Responsive? No!",
-    link: "https://globalprayers.netlify.app/",
-    repo: "https://github.com/sharjeelfaiq/globalprayers",
   },
   {
     image: pImg4,
