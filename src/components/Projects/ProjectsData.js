@@ -7,7 +7,7 @@ import pImg6 from "../../Assets/ProjectsImgs/pImg6.webp";
 import pImg7 from "../../Assets/ProjectsImgs/pImg7.webp";
 import pImg8 from "../../Assets/ProjectsImgs/pImg8.webp";
 import pImg9 from "../../Assets/ProjectsImgs/pImg9.webp";
-import pImg10 from "../../Assets/ProjectsImgs/pImg10.png";
+import pImg10 from "../../Assets/ProjectsImgs/pImg10.webp";
 import pImg11 from "../../Assets/ProjectsImgs/pImg11.webp";
 
 export const projectsData = [
